@@ -1,12 +1,4 @@
-# If modified, including torch.txt, this should be mirrored in pyproject.toml
-# by running
-#
-#      uv add -r requirements/build.txt
-#
-# These should always match.
-
-# Torch core dependency, but not all torch libs
--r torch.txt
+# Should be mirrored in pyproject.toml
 
 cmake>=3.26.1
 ninja
